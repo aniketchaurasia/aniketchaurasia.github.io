@@ -1,0 +1,320 @@
+    body {
+        font-family: "Odibee Sans", "Agency FB","Calibri","sans-serif";
+        letter-spacing: 1.5px;
+        height: 100%;
+        margin: 0;
+        font-size: 22px;
+        background-image: linear-gradient(to right, rgb(250, 85, 253), rgb(254, 65, 150));
+    }
+    
+    #logo {
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        z-index: 4;
+        transition: height 1s;
+    }
+    
+    #P1 {
+        font-size: 26px;
+    }
+    
+    #N1 {
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0);
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+        transition: height 1s;
+    }
+    
+    #N1.scroll {
+        background-color: #000000;
+        color: #eef;
+        box-shadow: 2px 2px 10px black;
+    }
+    
+    body>header {
+        margin-top: 4.7em;
+    }
+    
+    #N1 a {
+        float: left;
+        display: block;
+        color: #f3f3f3;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    #N1 :hover {
+        height: 30px;
+    }
+    
+    #N1 a:hover {
+        background: #ddd;
+        color: black;
+    }
+    
+    #N1 a:active {
+        background-color: #aa0478;
+        color: white;
+    }
+    
+    .main {
+        margin-top: 30px;
+    }
+    
+    th {
+        padding: 20px 15px;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: left;
+        vertical-align: middle;
+        font-weight: 500;
+        color: #fff;
+    }
+    
+    td {
+        padding: 15px;
+        text-align: left;
+        vertical-align: middle;
+        font-weight: 300;
+        color: #0f0f0f;
+        border-bottom: solid 2px rgba(255, 255, 255, 0.1);
+    }
+    
+    td>a {
+        text-decoration: none;
+        color: #000;
+    }
+    
+    h1 {
+        border-bottom: 5px solid black;
+    }
+    
+    h2 {
+        border-bottom: 5px solid black;
+    }
+    
+    #H {
+        border-top: 5px solid black !important;
+    }
+    
+    p {
+        font-size: 22px;
+    }
+    
+    .ico {
+        display: inline-block;
+        margin: 0px 10px;
+    }
+    
+    #D1 {
+        width: 100%;
+        margin: 30px 0px;
+    }
+    
+    #D1 .ico {
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0);
+        margin-top: 30px;
+    }
+    
+    #D1 .ico img {
+        opacity: 0.8;
+    }
+    
+    #D1 .ico:hover img {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-transition: all 0.8s;
+        transition: all 0.8s;
+        opacity: 1;
+    }
+    
+    #D1 .ico .caption {
+        bottom: -50px;
+        margin-left: 10px;
+        opacity: 0;
+        -webkit-transition: all 0.4s;
+        transition: all 0.4s;
+    }
+    
+    #D1 .ico .caption h3 {
+        margin: 0;
+        color: rgb(0, 0, 0);
+        font-size: 1.5em;
+        font-family: 'Odibee Sans', sans-serif;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    
+    #D1 .ico:hover .caption {
+        opacity: 1;
+        bottom: 10px;
+    }
+    
+    #L1 {
+        width: 100%;
+        margin: 30px 0px;
+    }
+    
+    #L1 .ico {
+        cursor: pointer;
+        background: rgba(255, 255, 255, 0);
+        margin-top: 30px;
+    }
+    
+    #L1 .ico img {
+        opacity: 0.8;
+    }
+    
+    #L1 .ico:hover img {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-transition: all 0.8s;
+        transition: all 0.8s;
+        opacity: 1;
+    }
+    
+    #L1 .ico .caption {
+        bottom: -50px;
+        margin-left: 10px;
+        opacity: 0;
+        -webkit-transition: all 0.4s;
+        transition: all 0.4s;
+    }
+    
+    #L1 .ico .caption h3 {
+        margin: 0;
+        color: rgb(0, 0, 0);
+        font-size: 1.5em;
+        font-family: 'Odibee Sans', sans-serif;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    
+    #L1 .ico:hover .caption {
+        opacity: 1;
+        bottom: 10px;
+    }
+    
+    #D2 {
+        width: 100%;
+        margin: 30px 0px;
+    }
+    
+    #D2 .ico {
+        cursor: pointer;
+        background: rgba(255, 255, 255, 0);
+        margin-top: 30px;
+    }
+    
+    #D2 .ico img {
+        opacity: 0.8;
+    }
+    
+    #D2 .ico:hover img {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-transition: all 0.8s;
+        transition: all 0.8s;
+        opacity: 1;
+    }
+    
+    #D2 .ico .caption {
+        bottom: -50px;
+        margin-left: 10px;
+        opacity: 0;
+        -webkit-transition: all 0.4s;
+        transition: all 0.4s;
+    }
+    
+    #D2 .ico .caption h3 {
+        margin: 0;
+        color: rgb(0, 0, 0);
+        font-size: 1.5em;
+        font-family: 'Odibee Sans', sans-serif;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    
+    #D2 .ico:hover .caption {
+        opacity: 1;
+        bottom: 10px;
+    }
+    
+    @media(min-width: 1500px) {
+        .dropdown {
+            display: none;
+        }
+    }
+    
+    @media(max-width: 1500px) {
+        #N1 {
+            display: none;
+        }
+        .dropdown {
+            padding-bottom: 8px;
+            color: white;
+            font-weight: bold;
+            background-color: black;
+            font-size: 30px;
+            box-shadow: #0f0f0f;
+        }
+        .ditem {
+            display: none;
+        }
+        .dropdown:hover .ditem {
+            display: block;
+        }
+        .ditem>ul {
+            list-style-type: none;
+        }
+        .ditem>ul>li>a {
+            text-decoration: none;
+        }
+        .hre {
+            color: aliceblue;
+        }
+        li :hover {
+            background-color: white;
+            color: black;
+            border-radius: 2px;
+            padding: 4px;
+        }
+        .hre:active {
+            background-color: #aa0478;
+            color: white;
+        }
+    }
+    
+    .pic {
+        border-radius: 5px;
+        box-shadow: #000;
+    }
+    
+    .grid-container {
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .grid-container>.grid-item>a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.404);
+    }
+    
+    .grid-container>.grid-item>a:hover {
+        color: #000000;
+    }
+    
+    footer {
+        background-color: rgba(255, 255, 255, 0.2);
+        bottom: 0;
+    }
+    
+    #last {
+        text-align: center;
+    }

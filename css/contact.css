@@ -1,0 +1,220 @@
+body {
+    font-family: "Odibee Sans","Agency FB","Calibri", "sans-serif";
+    letter-spacing: 1.5px;
+    height: 100%;
+    margin: 0;
+    font-size: 22px;
+    background-image: linear-gradient(to right, rgb(250, 85, 253), rgb(254, 65, 150));
+}
+
+#logo {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    transition: height 1s;
+}
+
+h1 {
+    margin: 10px 0px;
+}
+
+.item {
+    display: inline-block;
+}
+
+.container .item {
+    padding: 20px;
+    margin: 20px 20px;
+    border-radius: 25px;
+    position: initial;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(255, 223, 225, 0.3);
+    border: #000;
+    z-index: 1;
+}
+
+input {
+    background: 0;
+    width: 200px;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    margin: 20px 0;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0);
+    z-index: 1;
+}
+
+input[type="submit"] {
+    border: 0;
+    border-radius: 8px;
+    font-family: "Odibee Sans", "sans-serif";
+    font-size: 22px;
+    padding-bottom: 0;
+    height: 60px;
+    background: #000;
+    color: white;
+    cursor: pointer;
+    transition: all 600ms ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background: #fff;
+    color: #000;
+}
+
+input[type="text"] {
+    font-family: "Odibee Sans", "sans-serif";
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 1.5px;
+}
+
+input[type="date"] {
+    font-family: "Odibee Sans", "sans-serif";
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 1.5px;
+}
+
+input[type="email"] {
+    font-family: "Odibee Sans", "sans-serif";
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 1.5px;
+}
+
+textarea {
+    font-family: "Odibee Sans", "sans-serif";
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 1.5px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+@media(max-width: 1080px) {
+    .sub_item {
+        display: run-in;
+        margin: 400px 0px;
+        border: -20px 5px;
+        background-color: rgba(255, 255, 255, 0);
+    }
+}
+
+#N1 {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    transition: height 1s;
+}
+
+#N1.scroll {
+    background-color: #000000;
+    color: #eef;
+    box-shadow: 2px 2px 10px black;
+}
+
+body>header {
+    margin-top: 4.7em;
+}
+
+#N1 a {
+    float: left;
+    display: block;
+    color: #f3f3f3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#N1 :hover {
+    height: 30px;
+}
+
+#N1 a:hover {
+    background: #ddd;
+    color: black;
+}
+
+#N1 a:active {
+    background-color: #aa0478;
+    color: white;
+}
+
+@media(min-width: 800px) {
+    .dropdown {
+        display: none;
+    }
+}
+
+@media(max-width: 800px) {
+    #N1 {
+        display: none;
+    }
+    .dropdown {
+        overflow: hidden;
+        top: 0;
+        padding-bottom: 8px;
+        color: white;
+        font-weight: bold;
+        background-color: black;
+        font-size: 30px;
+        box-shadow: #0f0f0f;
+    }
+    .ditem {
+        display: none;
+    }
+    .dropdown:hover .ditem {
+        display: block;
+    }
+    .ditem>ul {
+        list-style-type: none;
+    }
+    .ditem>ul>li>a {
+        text-decoration: none;
+    }
+    .hre {
+        color: aliceblue;
+    }
+    li :hover {
+        background-color: white;
+        color: black;
+        border-radius: 2px;
+        padding: 4px;
+    }
+    .hre:active {
+        background-color: #aa0478;
+        color: white;
+    }
+}
+
+.grid-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-container>.grid-item>a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.404);
+}
+
+.grid-container>.grid-item>a:hover {
+    color: #000000;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.2);
+    bottom: 0;
+}
+
+#last {
+    text-align: center;
+}
